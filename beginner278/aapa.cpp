@@ -5,7 +5,7 @@
 int main() {
     unsigned n; std::cin >> n;
 
-    std::vector<unsigned long> seq(n); // why ()
+    std::vector<unsigned long> seq(n); // creates a vector of size n
     unsigned base{}; // 0
 
     for (auto &&a : seq) std::cin >> a;
